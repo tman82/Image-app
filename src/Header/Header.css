@@ -1,0 +1,26 @@
+.container-div {
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+
+.header {
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    padding-bottom: 2px;
+    margin-top: -15px !important;
+}
+
+.header span {
+    font-weight: bold;
+    color: #49c5b6;
+}
+
+.header2-span {
+    font-family: 'Secular One', sans-serif;
+    margin-right: 5px;
+}
+
+.ghost {
+    padding: 2px;
+}

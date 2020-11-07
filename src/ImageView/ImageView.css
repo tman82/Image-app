@@ -1,0 +1,66 @@
+.imageView__container {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+  
+  .imageView__img {
+    height: 400px;
+    width: auto;
+  }
+  
+  .view-box {
+    margin-top: 100px;
+  }
+  
+  .imageView__copyright {
+    color: #49c5b6;
+    margin-top: 10px;
+  }
+  
+  .imageView__text {
+    font-family: 'Secular One', sans-serif;
+    margin-top: 1rem;
+  }
+  
+  .imageView__text h4, h5, span {
+    letter-spacing: 1px;
+    color: #49c5b6;
+  }
+  
+  .imageView__text h4 span {
+    color: #fff;
+    font-family: 'Secular One', sans-serif;
+  }
+  
+  .imageView__text a {
+    color: #fff;
+  }
+  
+  .imageView__text button {
+    border: 0;
+    background: #49c5b6;
+    border: solid 2px #49c5b6;
+    font-family: 'Secular One', sans-serif;
+    border-radius: 50px;
+    padding: 5px 20px;
+    width: 200px;
+    margin-top: 10px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .imageView__text button:hover {
+    background:#B1E7E0;
+    border-color:#B1E7E0;
+    color: black !important;
+  }
+
+  .imageView__text button:hover {
+    background:#B1E7E0;
+    border-color:#B1E7E0;
+    color: black !important;
+  }
+
+.home-active:hover {
+  color: black !important;
+}

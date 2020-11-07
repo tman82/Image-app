@@ -1,0 +1,48 @@
+  .imageList__container {
+      border-radius: 1px;
+      box-shadow: -1px 2px 34px -13px rgba(0,0,0,0.55);
+      text-align: left;
+      overflow: hidden;
+  }
+
+  .imageList__container .show {
+    visibility: hidden;
+  }
+
+  .imageList__container:hover .show {
+    visibility: visible;
+  }
+  
+  .imageList__image {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .image__details {
+    margin-top: -70px;
+    background: #3A3A3A; 
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .image__details button {
+    font-family: 'Secular One', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+    width: 200px;
+    margin-top: 0px; 
+    padding: 5px 5px;
+    border: 2px solid #49c5b6; 
+    border-radius: 50px;
+    background-color: #49c5b6; 
+    color: #fff;
+    transition: 0.2s ease-in-out;
+  }
+
+  .image__details button:hover {
+    background:#B1E7E0;
+    border-color:#B1E7E0;
+    color: black;
+  }
+

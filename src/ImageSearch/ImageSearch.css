@@ -1,0 +1,184 @@
+.imageSearch {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 120px 0px 0px 0px;
+    position: relative;
+
+    /* new */
+    background: url(../assets/images/main-pic.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+  .filler {
+    height: 100px;
+    background: linear-gradient(to bottom, transparent, #171717);
+    margin-top: 30px;
+  }
+
+  .main-phrase {
+    font-size: 60px;
+    font-family: 'Secular One', sans-serif;
+  }
+
+  /* new */
+  .imageSearch form { 
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 700px;
+    height: 70px;
+    border-radius: 50px;
+
+  }
+  
+  .imageSearch__form input {
+    font-family: 'Secular One', sans-serif;
+    margin: 0 auto;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid 2px transparent; 
+    padding-bottom: 17px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 35px;
+    margin-right: 280px;
+    margin-left: 10px;
+    width: 670px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #a3a3a3;
+  }
+  
+  .imageSearch__form input:focus {
+    outline: none;
+  }
+
+  .imageSearch form ::placeholder {
+    color: #a3a3a3;
+  }
+  
+  .imageSearch__form button {
+    border: 0;
+    border-radius: 0px;
+    width: 3%;
+    margin-left: 280px;
+    position: absolute;
+    top: 252px;
+    background: transparent;
+    border: none;
+    color: #a3a3a3;
+    transition: 0.2s ease-in-out;
+  }
+
+  .imageSearch__form button:hover {
+    filter: brightness(65%);
+  } 
+
+  .bottom-buttons {
+    font-family: 'Secular One', sans-serif;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+    padding-top: 50px;
+    text-align: center;
+    width: 450px !important;
+  }
+
+  .buttons-div {
+    display: flex;
+    flex-direction: row;
+    width: 450px !important;
+  }
+
+  .bottom-buttons, .buttons-div, button {
+    margin: 0px 5px;
+    padding: 12px 0px;
+    width: 200px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .left-b {
+    background: #49c5b6;
+    border: none;
+    transition: 0.2s ease-in-out;
+  }
+
+  .left-b:hover {
+    background: #B1E7E0;
+  }
+
+  .right-b {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .right-b:hover {
+    background: white;
+    color: black;
+    transition: 0.2s ease-in-out;
+  }
+
+
+  /* Media Queries */
+  @media only screen and (max-width: 903px) {
+    .imageSearch__form button {
+      background: white;
+      margin-top: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 680px) {
+    .imageSearch__form button {
+      margin-left: -30px;
+      margin-left: 40%;
+    }
+  }
+
+  @media (min-width:800px) and (max-width: 2000px) {
+    @-moz-document url-prefix() { 
+      .imageSearch__form button {
+        margin-left: -340px;
+      }
+    }
+  }
+
+  @media (min-width:500px) and (max-width:799px) {
+    @-moz-document url-prefix() { 
+      .imageSearch__form button {
+        margin-left: -43% !important;
+      }
+    }
+  }
+
+  @media (min-width:600px) and (max-width:700px) {
+    @-moz-document url-prefix() { 
+      .imageSearch__form button {
+        margin-left: -360px !important;
+      }
+    }
+  }
+
+  @media (min-width:400px) and (max-width:599px) {
+    @-moz-document url-prefix() { 
+      .imageSearch__form button {
+        margin-left: -450px !important;
+      }
+    }
+  }
+
+  @media (min-width: 200px) and (max-width: 399px) {
+    @-moz-document url-prefix() { 
+      .imageSearch__form button {
+        background: gray;
+        margin-left: -750px !important;
+      }
+    }
+  }
+
