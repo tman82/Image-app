@@ -15,7 +15,7 @@ const ImageSearch = ({ handleGetRequest }) => {
             </form>
             <div className="bottom-buttons">
                 <div className="buttons-div">
-                    <a href="https://pixabay.com/"><button type="button" className="left-b">More Photos</button></a>
+                    <a href="https://pixabay.com/"><button type="button" className="left-b">More Photo</button></a>
                     <a href="https://pixabay.com/"><button type="button" className="right-b">Trending</button></a>
                 </div>
             </div>
